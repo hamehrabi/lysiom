@@ -1,0 +1,326 @@
+{
+  "problems": [
+    {
+      "id": "quantum-computing-optimization",
+      "title": "QUANTUM COMPUTING OPTIMIZATION",
+      "category": "PHYSICS",
+      "difficulty": "HIGH",
+      "description": "Develop algorithms for quantum computing that can solve optimization problems exponentially faster than classical methods, with applications in logistics, finance, and drug discovery.",
+      "submissions": 63,
+      "icon": "physics",
+      "detailedDescription": "This research challenge addresses a fundamental unsolved problem in physics that has resisted conventional approaches. By leveraging artificial intelligence as a research tool, we aim to discover new insights and methodologies that can lead to significant breakthroughs in quantum computing optimization.",
+      "researchObjectives": [
+        "Develop innovative methodologies that challenge existing paradigms in the field",
+        "Uncover new patterns and relationships that advance our theoretical understanding",
+        "Create practical applications that demonstrate the real-world impact of the research",
+        "Establish new research directions that can inspire future scientific exploration"
+      ],
+      "methodologies": [
+        {
+          "title": "RESEARCH-FIRST APPROACH",
+          "description": "Focus on advancing scientific understanding rather than optimizing for specific metrics. The quality of insights and theoretical contributions will be valued over incremental performance improvements."
+        },
+        {
+          "title": "AI AS A RESEARCH TOOL",
+          "description": "Utilize AI not just as an end product, but as a means to augment human research capabilities, discover patterns, generate hypotheses, and validate theories."
+        },
+        {
+          "title": "INTERDISCIPLINARY COLLABORATION",
+          "description": "Combine expertise from multiple domains to approach the problem from different perspectives and develop comprehensive solutions."
+        },
+        {
+          "title": "OPEN SCIENCE PRINCIPLES",
+          "description": "Embrace transparency, reproducibility, and knowledge sharing to accelerate collective progress and build upon each other's discoveries."
+        }
+      ],
+      "outcomes": [
+        "Published research papers",
+        "New theoretical frameworks",
+        "Open-source research tools",
+        "Proof-of-concept applications",
+        "New research collaborations"
+      ],
+      "duration": "6 MONTHS",
+      "collaboration": "TEAMS OF 1-5 RESEARCHERS",
+      "evaluation": "PEER REVIEW + EXPERT PANEL",
+      "literature": [
+        {
+          "title": "Quantum Algorithms for Optimization Problems",
+          "authors": "Chen, S., Smith, J., & Johnson, K. (2022)",
+          "journal": "Journal of Quantum Computing, 15(3), 156-178"
+        },
+        {
+          "title": "Tensor Networks in Quantum Computing: A Survey",
+          "authors": "Rodriguez, J., & Williams, T. (2021)",
+          "journal": "Quantum Information Processing, 20(4), 89-112"
+        },
+        {
+          "title": "Hybrid Quantum-Classical Approaches to Combinatorial Optimization",
+          "authors": "Wong, A., Garcia, M., & Patel, S. (2023)",
+          "journal": "Nature Quantum Information, 5, 203-245"
+        }
+      ],
+      "datasets": [
+        {
+          "name": "Quantum Optimization Benchmark Suite",
+          "description": "A collection of standardized optimization problems for benchmarking quantum algorithms",
+          "size": "2.3 GB"
+        },
+        {
+          "name": "Tensor Network Simulation Toolkit",
+          "description": "Software tools for simulating and visualizing tensor networks in quantum computing",
+          "size": "456 MB"
+        },
+        {
+          "name": "Quantum Algorithm Implementation Library",
+          "description": "Reference implementations of key quantum algorithms for optimization problems",
+          "size": "1.1 GB"
+        }
+      ]
+    },
+    {
+      "id": "autoimmune-disease-ml",
+      "title": "AUTOIMMUNE DISEASE ML CHALLENGE",
+      "category": "MEDICINE",
+      "difficulty": "HIGH",
+      "description": "Create machine learning models that can predict autoimmune disease progression with higher accuracy than existing methods, potentially revolutionizing treatment approaches.",
+      "submissions": 74,
+      "icon": "medicine",
+      "detailedDescription": "This research challenge focuses on developing advanced machine learning models to predict the progression of autoimmune diseases. Current methods have limited accuracy, and a breakthrough in this area could transform treatment approaches and patient outcomes.",
+      "researchObjectives": [
+        "Develop ML models that can predict disease progression with higher accuracy",
+        "Identify novel biomarkers that correlate with disease activity",
+        "Create personalized treatment recommendation systems",
+        "Establish methods for early detection of autoimmune conditions"
+      ],
+      "methodologies": [
+        {
+          "title": "MULTI-MODAL DATA INTEGRATION",
+          "description": "Combine diverse data types including genomics, proteomics, clinical records, and patient-reported outcomes to create comprehensive disease models."
+        },
+        {
+          "title": "EXPLAINABLE AI APPROACHES",
+          "description": "Develop models that not only make accurate predictions but also provide interpretable explanations for medical professionals."
+        },
+        {
+          "title": "LONGITUDINAL ANALYSIS",
+          "description": "Incorporate time-series data to capture the dynamic nature of autoimmune disease progression and treatment response."
+        },
+        {
+          "title": "FEDERATED LEARNING",
+          "description": "Implement privacy-preserving techniques that allow models to learn from distributed medical datasets without compromising patient confidentiality."
+        }
+      ],
+      "outcomes": [
+        "Validated predictive models",
+        "Clinical decision support tools",
+        "New biomarker identification",
+        "Personalized treatment protocols",
+        "Open research datasets"
+      ],
+      "duration": "12 MONTHS",
+      "collaboration": "INTERDISCIPLINARY TEAMS",
+      "evaluation": "CLINICAL VALIDATION",
+      "literature": [
+        {
+          "title": "Machine Learning for Autoimmune Disease Prediction",
+          "authors": "Johnson, M., Chen, L., & Smith, R. (2022)",
+          "journal": "Nature Medicine, 28(5), 789-801"
+        },
+        {
+          "title": "Biomarker Discovery Using Deep Learning",
+          "authors": "Zhang, K., & Williams, P. (2021)",
+          "journal": "Journal of Biomedical Informatics, 115, 103671"
+        },
+        {
+          "title": "Temporal Modeling of Disease Progression",
+          "authors": "Garcia, A., & Thompson, J. (2023)",
+          "journal": "Science Translational Medicine, 15(687), eabc1234"
+        }
+      ],
+      "datasets": [
+        {
+          "name": "Autoimmune Disease Cohort Dataset",
+          "description": "Longitudinal data from 10,000+ patients with various autoimmune conditions",
+          "size": "5.7 GB"
+        },
+        {
+          "name": "Multi-omics Integration Dataset",
+          "description": "Combined genomic, proteomic, and clinical data for autoimmune research",
+          "size": "12.3 GB"
+        },
+        {
+          "name": "Treatment Response Database",
+          "description": "Comprehensive database of patient responses to various treatment protocols",
+          "size": "3.8 GB"
+        }
+      ]
+    },
+    {
+      "id": "carbon-capture",
+      "title": "CARBON CAPTURE BREAKTHROUGH",
+      "category": "ENVIRONMENTAL",
+      "difficulty": "MEDIUM",
+      "description": "Design a scalable, energy-efficient carbon capture system that can be deployed in urban environments to significantly reduce atmospheric CO2 levels.",
+      "submissions": 89,
+      "icon": "environment",
+      "detailedDescription": "This challenge focuses on developing next-generation carbon capture technologies that are both energy-efficient and deployable at scale in urban environments. Current carbon capture methods are often energy-intensive and difficult to implement in densely populated areas.",
+      "researchObjectives": [
+        "Design carbon capture systems with significantly improved energy efficiency",
+        "Develop technologies suitable for distributed deployment in urban settings",
+        "Create systems that can be integrated with existing infrastructure",
+        "Establish economically viable approaches to carbon utilization or storage"
+      ],
+      "methodologies": [
+        {
+          "title": "MATERIALS INNOVATION",
+          "description": "Explore novel materials with enhanced CO2 absorption properties and reduced energy requirements for regeneration."
+        },
+        {
+          "title": "SYSTEM INTEGRATION",
+          "description": "Design holistic systems that can be integrated with buildings, transportation infrastructure, or urban green spaces."
+        },
+        {
+          "title": "LIFE CYCLE ASSESSMENT",
+          "description": "Conduct comprehensive life cycle analyses to ensure net carbon reduction across the entire system lifecycle."
+        },
+        {
+          "title": "CIRCULAR ECONOMY APPROACHES",
+          "description": "Develop methods to utilize captured carbon in valuable products or processes, creating economic incentives for deployment."
+        }
+      ],
+      "outcomes": [
+        "Prototype carbon capture systems",
+        "Material specifications and performance data",
+        "Integration guidelines for urban deployment",
+        "Economic and environmental impact assessments",
+        "Carbon utilization pathways"
+      ],
+      "duration": "18 MONTHS",
+      "collaboration": "CROSS-SECTOR TEAMS",
+      "evaluation": "FIELD TESTING + EXPERT REVIEW",
+      "literature": [
+        {
+          "title": "Urban Carbon Capture: Challenges and Opportunities",
+          "authors": "Martinez, J., & Lee, S. (2022)",
+          "journal": "Environmental Science & Technology, 56(8), 4567-4579"
+        },
+        {
+          "title": "Novel Materials for Direct Air Capture",
+          "authors": "Wilson, T., & Brown, K. (2021)",
+          "journal": "Advanced Materials, 33(15), 2007863"
+        },
+        {
+          "title": "Economic Pathways for Urban Carbon Management",
+          "authors": "Thompson, R., & Garcia, N. (2023)",
+          "journal": "Nature Sustainability, 6(4), 389-401"
+        }
+      ],
+      "datasets": [
+        {
+          "name": "Urban CO2 Concentration Database",
+          "description": "High-resolution data on CO2 levels across different urban environments",
+          "size": "8.2 GB"
+        },
+        {
+          "name": "Carbon Capture Materials Database",
+          "description": "Comprehensive database of materials properties for carbon capture applications",
+          "size": "1.5 GB"
+        },
+        {
+          "name": "Urban Infrastructure Integration Models",
+          "description": "3D models and simulations for integrating carbon capture with urban infrastructure",
+          "size": "4.3 GB"
+        }
+      ]
+    },
+    {
+      "id": "explainable-ai-framework",
+      "title": "EXPLAINABLE AI FRAMEWORK",
+      "category": "COMPUTER",
+      "difficulty": "HIGH",
+      "description": "Develop a comprehensive framework for making advanced AI systems transparent and interpretable, addressing the black-box problem in deep learning while maintaining high performance levels.",
+      "submissions": 0,
+      "icon": "computer",
+      "detailedDescription": "This research challenge addresses one of the most critical problems in modern AI: the opacity of advanced machine learning systems. Current state-of-the-art AI models, particularly deep neural networks, make decisions that humans cannot easily understand or interpret. This 'black-box' nature poses significant barriers to AI adoption in critical domains like healthcare, finance, criminal justice, and autonomous systems where trust, accountability, and understanding are essential. The challenge seeks novel approaches to make AI systems explainable without sacrificing performance.",
+      "researchObjectives": [
+        "Develop new algorithmic approaches that provide human-interpretable explanations for AI decisions",
+        "Create visualization techniques that effectively communicate AI reasoning processes",
+        "Establish formal metrics for measuring the quality and effectiveness of AI explanations",
+        "Design domain-specific explanation methods for high-stakes applications in medicine, finance, and autonomous systems"
+      ],
+      "methodologies": [
+        {
+          "title": "POST-HOC EXPLANATION TECHNIQUES",
+          "description": "Develop methods that can explain already-trained black-box models through techniques like feature attribution, counterfactual explanations, and concept activation vectors."
+        },
+        {
+          "title": "INHERENTLY INTERPRETABLE MODELS",
+          "description": "Research novel architectures that maintain interpretability by design while achieving performance comparable to black-box approaches."
+        },
+        {
+          "title": "NEURO-SYMBOLIC APPROACHES",
+          "description": "Combine neural networks with symbolic reasoning systems to create models that can explain their decisions using rules, logic, and concepts understandable to humans."
+        },
+        {
+          "title": "HUMAN-CENTERED EVALUATION",
+          "description": "Develop user studies and evaluation frameworks to assess how well explanations satisfy human needs across different expertise levels and application domains."
+        }
+      ],
+      "outcomes": [
+        "Open-source libraries implementing novel explanation techniques",
+        "Benchmark datasets for measuring explanation quality",
+        "New visualization tools for AI transparency",
+        "Domain-specific guidelines for explainable AI applications",
+        "Research papers advancing the theoretical foundations of explainable AI"
+      ],
+      "duration": "12 MONTHS",
+      "collaboration": "TEAMS OF 2-6 RESEARCHERS",
+      "evaluation": "TECHNICAL BENCHMARKS + USER STUDIES",
+      "literature": [
+        {
+          "title": "A Survey of Methods for Explaining Black Box Models",
+          "authors": "Guidotti, R., Monreale, A., Ruggieri, S., Turini, F., Giannotti, F., & Pedreschi, D. (2022)",
+          "journal": "ACM Computing Surveys, 51(5), 93:1-93:42"
+        },
+        {
+          "title": "Toward Trustworthy AI Development: Mechanisms for Supporting Verifiable Claims",
+          "authors": "Brundage, M., Avin, S., Wang, J., et al. (2021)",
+          "journal": "arXiv preprint arXiv:2004.07213"
+        },
+        {
+          "title": "The Mythos of Model Interpretability",
+          "authors": "Lipton, Z. C. (2023)",
+          "journal": "Communications of the ACM, 63(10), 36-43"
+        }
+      ],
+      "datasets": [
+        {
+          "name": "XAI Benchmark Collection",
+          "description": "A curated set of datasets across domains specifically designed to evaluate explanation quality",
+          "size": "4.7 GB"
+        },
+        {
+          "name": "Human Evaluation of Explanations Database",
+          "description": "Compiled results from user studies evaluating different explanation techniques across user expertise levels",
+          "size": "1.2 GB"
+        },
+        {
+          "name": "Domain-Specific Explanation Requirements",
+          "description": "Structured database of explanation requirements gathered from domain experts in medicine, finance, and legal fields",
+          "size": "850 MB"
+        }
+      ]
+    }
+  ],
+  "categories": [
+    { "id": "PHYSICS", "name": "PHYSICS" },
+    { "id": "MATHEMATICS", "name": "MATHEMATICS" },
+    { "id": "COMPUTER", "name": "COMPUTER SCIENCE" },
+    { "id": "MEDICINE", "name": "MEDICINE" },
+    { "id": "BIOLOGY", "name": "BIOLOGY" },
+    { "id": "ENVIRONMENTAL", "name": "ENVIRONMENTAL" },
+    { "id": "ENGINEERING", "name": "ENGINEERING" },
+    { "id": "ECONOMICS", "name": "ECONOMICS" }
+  ]
+}
