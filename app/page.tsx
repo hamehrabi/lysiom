@@ -33,6 +33,26 @@ export default function Home() {
   // Parallax effect calculation
   const parallaxOffset = scrollY * 0.4
 
+  // Project image mappings
+  const projectImages = {
+    "quantum-computing-optimization": "/images/projects/quantum-computing/physics.png",
+    "autoimmune-disease-ml": "/images/projects/autoimmune-ml/medicine.png", 
+    "carbon-capture": "/images/projects/carbon-capture/environment.png",
+    "explainable-ai-framework": "/images/projects/explainable-ai/computer.png"
+  }
+
+  // Discipline image mappings
+  const disciplineImages = {
+    physics: "/images/disciplines/physics/einstein.png",
+    mathematics: "/images/disciplines/mathematics/gauss.png",
+    "computer-science": "/images/disciplines/computer-science/turing.png",
+    medicine: "/images/disciplines/medicine/hippocrates.png",
+    biology: "/images/disciplines/biology/darwin.png",
+    environmental: "/images/disciplines/environmental/environment.png",
+    engineering: "/images/disciplines/engineering/engineering.png",
+    economics: "/images/disciplines/economics/economics.png"
+  }
+
   // Use the first 3 problems from our data source for featured projects
   const featuredProjects = problemsData.problems.slice(0, 3).map((problem) => ({
     title: problem.title,
@@ -40,7 +60,7 @@ export default function Home() {
     difficulty: problem.difficulty,
     description: problem.description,
     submissions: problem.submissions,
-    image: `/projects/${problem.icon}.png`,
+    image: projectImages[problem.id as keyof typeof projectImages] || "/assets/placeholders/general-placeholder.png",
     id: problem.id,
   }))
 
@@ -94,14 +114,14 @@ export default function Home() {
         "Lysiom's platform enabled our team to solve a problem that had stumped researchers for decades. The AI assistant was instrumental in our breakthrough.",
       name: "Dr. Sarah Chen",
       title: "MIT Quantum Computing Lab",
-      avatar: "/avatars/researcher1.png",
+      avatar: "/images/team/researchers/researcher-1.png",
     },
     {
       quote:
         "The collaborative environment and access to cross-disciplinary expertise helped us develop a novel approach to carbon capture that's now being implemented globally.",
       name: "Prof. James Rodriguez",
       title: "Stanford Environmental Science",
-      avatar: "/avatars/researcher2.png",
+      avatar: "/images/team/researchers/researcher-2.png",
     },
   ]
 
@@ -127,7 +147,7 @@ export default function Home() {
           <Link href="/" className="flex items-center gap-3 z-10">
             <div className="relative w-12 h-12 sm:w-14 sm:h-14 overflow-hidden">
               <Image
-                src="/new-lysiom-logo.png"
+                src="/assets/logos/lysiom-logo-main.png"
                 alt="Lysiom - Platform for Unsolved Scientific Problems"
                 width={56}
                 height={56}
@@ -463,7 +483,7 @@ export default function Home() {
                         <div className="flex justify-center items-center">
                           <div className="relative h-64 w-64 float flex items-center justify-center">
                             <Image
-                              src={project.image || "/placeholder.svg"}
+                              src={project.image || "/assets/placeholders/general-placeholder.png"}
                               alt={project.title}
                               width={256}
                               height={256}
@@ -512,7 +532,7 @@ export default function Home() {
                   <div className="mb-4 w-16 h-16 flex items-center justify-center bg-gradient-to-br from-[var(--color-twilight)] to-[var(--color-cosmic-dust)] border-2 border-[var(--color-twilight)] rounded-md p-2 pixel-art relative overflow-hidden">
                     <div className="absolute inset-0 opacity-20 bg-grid-pattern"></div>
                     <Image
-                      src={`/icons/${discipline.icon}.png`}
+                      src={disciplineImages[discipline.id as keyof typeof disciplineImages]}
                       alt={
                         discipline.name === "PHYSICS"
                           ? "Physics discipline - Albert Einstein pixel art"
@@ -583,7 +603,7 @@ export default function Home() {
                     <div className="flex-shrink-0">
                       <div className="w-16 h-16 rounded-lg overflow-hidden gradient-border">
                         <Image
-                          src={testimonial.avatar || "/placeholder.svg"}
+                          src={testimonial.avatar || "/assets/placeholders/user-placeholder.jpg"}
                           alt={testimonial.name}
                           width={64}
                           height={64}
@@ -668,7 +688,7 @@ export default function Home() {
               <div className="flex items-center gap-3 mb-6">
                 <div className="relative w-12 h-12 overflow-hidden">
                   <Image
-                    src="/new-lysiom-logo.png"
+                    src="/assets/logos/lysiom-logo-main.png"
                     alt="Lysiom - Platform for Unsolved Scientific Problems"
                     width={48}
                     height={48}
@@ -689,7 +709,7 @@ export default function Home() {
                     aria-label={social.name}
                   >
                     <Image
-                      src={`/icons/${social.icon}.png`}
+                      src={`/icons/social/${social.icon}.png`}
                       alt={social.name}
                       width={24}
                       height={24}
@@ -825,7 +845,7 @@ export default function Home() {
                 {investors.slice(0, 3).map((investor, index) => (
                   <div key={index} className="h-6 w-auto relative grayscale opacity-60">
                     <Image
-                      src={`/investors/${investor.logo}`}
+                      src={`/branding/investors/${investor.logo}`}
                       alt={investor.name}
                       width={investor.width / 2}
                       height={24}
@@ -836,7 +856,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        
+        </div>
       </footer>
     </div>
   );
